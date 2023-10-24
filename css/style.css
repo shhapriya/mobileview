@@ -1,5 +1,5 @@
 
-nav {
+ nav {
         padding-left: 0px;
         padding-right: 0px;
         padding-top: 30px;
@@ -7,7 +7,13 @@ nav {
         text-align: right; 
         font-size: 16px;
        }
-    
+       nav a {
+       text-decoration: none; 
+       color: black; 
+       margin: 0 15px; 
+       border: 1px solid #333; 
+       padding: 10px 15px;
+       }
        nav li {
        display: inline-block; 
        }
@@ -21,14 +27,14 @@ nav {
     body {
         display: grid;
         background-color: lavender;
-        color: blue;
+        color: black;
         font-family: 'Serif';
         }
 
 
 nav a:hover, nav a:focus {
     text-decoration: underline; 
-    color: aquamarine;
+    color: aquamarine; */ */
 
 .thumbnail {
  display: grid;
@@ -39,7 +45,7 @@ nav a:hover, nav a:focus {
     grid-gap: 10px;
   }
       }   
-}
+ } 
 
 
 @media (prefers-reduced-motion: reduce) {
@@ -49,20 +55,20 @@ nav a:hover, nav a:focus {
 }
 h1 {
 	color: #0492c2;
-    font-family: Courier, Impact, Arial;
+    font-family: Fantasy;
     text-align: center; 
     font-size: 50px; 
 }
 
 h2 {
 font-size: medium; 
-font-family: Verdana, Impact, Arial;
-color: #FFC0CB;
+font-family: Georgia;
+color: #c0f6ff;
 }
 
 h3 {
     font-size: medium; 
-    font-family: Verdana, Impact, Arial;
+    font-family: Georgia;
     color: #FFA500;
     }
 
